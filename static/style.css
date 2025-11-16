@@ -1,0 +1,82 @@
+/* style.css - Retro ASCII vibe */
+
+body {
+  background-color: #0d0d0d; /* deep black */
+  color: #33ff33; /* classic green terminal text */
+  font-family: "Courier New", Courier, monospace; /* ASCII-style font */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  color: #00ffcc; /* cyan glow */
+  text-shadow: 0 0 8px #00ffcc;
+  margin-bottom: 20px;
+}
+
+#quiz p {
+  font-weight: bold;
+  margin-top: 15px;
+  text-shadow: 0 0 5px #33ff33;
+}
+
+label {
+  display: block;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  accent-color: #ff00ff; /* magenta retro accent */
+}
+
+button {
+  background-color: #1a1a1a;
+  color: #ffcc00; /* amber retro highlight */
+  border: 2px solid #ffcc00;
+  padding: 10px 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+  text-shadow: 0 0 5px #ffcc00;
+}
+
+#load-button {
+  background-color: #0044cc; /* blue for load button */
+  border-color: #00ccff;
+  color: #33ff33;
+  text-align: center;
+}
+
+/* Wrap the button in a container */
+.button-container {
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  margin-top: 20px;
+}
+
+
+button:hover {
+  background-color: #333333;
+  color: #ffffff;
+  border-color: #ffffff;
+  text-shadow: 0 0 8px #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  border: 2px dashed #33ff33; /* ASCII-style box */
+  padding: 20px;
+  background-color: #111111;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #666666;
+}
